@@ -1,0 +1,160 @@
+body {
+	background-image: url('../images/sayagata-400px.png'); 
+	color: #777777;
+
+}
+
+header {
+	padding-top:20px; 
+	padding-left: 20px; 
+	border-color: #cccccc; 
+	background-color: #ffffff;
+	border-bottom: 3px solid black;
+	height: 50px;
+	;
+}
+
+footer {
+	clear:both; 
+	background-color: #666666;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-top: 3px solid #4aaaa5;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	color: #4aaaa5;
+
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+
+}
+
+#myName {
+	display:inline-block; 
+	color:white; 
+	background: #4aaaa5;
+	width: auto;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.naviBar {float: right;
+
+}
+
+
+#contactNav {
+	float:right; 
+	padding:10px;
+
+}
+
+#portfolioNav {
+	float: right; 
+	padding: 10px; 
+	border-left:1px solid #777777; 
+    border-right:1px solid #777777; 
+    height:10px;
+
+}
+
+#aboutNav {float: right; padding:10px; 
+
+}
+
+#content {width: 960px}
+
+#about {
+	float:left; 
+	background:white; 
+	width:650px; 
+	padding: 20px;
+	border: 1px solid #dddddd;
+	margin: 10px;
+}
+
+#bioPic {
+	float: left; 
+	padding: 10px;
+
+}
+
+#connect {
+	float:left;
+	background:white; 
+	width: 270px; 
+	height: 125px; 
+	text-align: center; 
+	color: #4aaaa5;
+	border: 1px solid #dddddd;
+	margin: 10px;
+
+}
+
+.projects {
+	position: fixed;
+
+}
+
+#project1 {
+	top:5%;
+	left:5%;
+
+}
+
+#project2 {
+	top:5%;
+	right:5%;
+
+}
+
+/*Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
+
+xxxTeal color (used for headings and backgrounds): #4aaaa5
+xxxRegular font color (used for paragraphs and all text besides the headings): #777777
+xxxMain header background color: #ffffff
+xxxMain header border color: #cccccc 
+xxxFooter background color: #666666
+xxxMain content background color: #ffffff
+xxxMain content border color: #dddddd
+Fonts:
+
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+Profile Image Found on index.html:
+
+Use a picture of yourself.
+If you don't have a picture, you can grab a placeholder image from LoremPixel. Save the images to your images folder.
+Portfolio Images:
+
+Placeholder images can be found at LoremPixel.
+Save the images to your images folder.
+Social Link Images (Github, LinkedIn, StackOverflow, etc.):
+
+These images can be found on IconFinder.
+Save the images to your images folder.
+Ensure that these icons are live links to your GitHub, LinkedIn, and Stack Overflow profiles.
+Background Images:
+
+The background pattern used was found on Subtle Patterns. You can browse through that site and find whichever pattern you like.
+Dimensions:
+
+The entire content area is 960px wide.
+The main section content is 650px wide.
+The sidebar is 270px wide.
+Pro-tip: Use the Page Ruler extension to measure the size of elements.
+Bonus
+
+Make your pages more sophisticated by adding style to text links, to image links, and to buttons for when a user hovers their cursor over them. A CSS hover tutorial can be found here.
+
+You can use Adobe Kuler to find colors that match the theme (in this case, the primary color is Teal #4aaaa5).
+
+Make a "sticky footer." You will notice the dark grey footer will always rest just below the content. This is fine whenever your site has enough content to push it down past the height of most monitors. But if there isn't much content in the body, the footer could rest in the middle of the page: 
+*/
