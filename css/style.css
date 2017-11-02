@@ -1,7 +1,6 @@
 body {
 	background-image: url('../images/sayagata-400px.png'); 
 	color: #777777;
-
 }
 
 header {
@@ -23,17 +22,11 @@ footer {
 	border-top: 3px solid #4aaaa5;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif; 
 	color: #4aaaa5;
-
 }
 
-h2 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
-
-}
 
 #myName {
 	display:inline-block; 
@@ -45,10 +38,11 @@ h2 {
 	line-height: 50px;
 }
 
-.naviBar {float: right;
-
+.naviBar {
+	float: right;
 }
 
+section.naviBar:float {color: yellow;}
 
 #contactNav {
 	float:right; 
@@ -78,6 +72,7 @@ h2 {
 	padding: 20px;
 	border: 1px solid #dddddd;
 	margin: 10px;
+	overflow: auto;
 }
 
 #bioPic {
@@ -114,6 +109,7 @@ h2 {
 	right:5%;
 
 }
+
 
 /*Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
 
